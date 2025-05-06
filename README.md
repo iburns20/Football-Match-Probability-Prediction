@@ -31,3 +31,32 @@ Clone the repository and install dependencies:
 git clone https://github.com/yourusername/football-match-prediction.git
 cd football-match-prediction
 pip install -r requirements.txt
+```
+
+## Usage
+
+To train and test the models, run the following command:
+
+```bash
+python main.py
+```
+Ensure the dataset is placed in the `data/` directory before running the script.
+
+## Performance
+
+- **Neural Networks**: Best performing model with a log-loss of 0.8724.
+- **Random Forest**: Achieved a log-loss of 1.0300.
+- **BKS Fusion**: Combined predictions from MPP models to improve accuracy, with a log-loss of 1.0277.
+
+## Contributions
+
+- **Ian Burns**: Dataset description, feature selection, feature reduction, methods.
+- **Gabriel Carson**: Model explanation, performance evaluation.
+- **Ethan Head**: Performance evaluation and model comparisons.
+
+## References
+
+- Kaggle Football Match Probability Prediction competition: [Link](https://www.kaggle.com/competitions/football-match-probability-prediction)
+- Relevant academic papers and Kaggle discussions.
+
+
